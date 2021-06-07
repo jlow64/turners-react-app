@@ -1,0 +1,32 @@
+.image-3 {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    left: 108px;
+    mix-blend-mode: normal;
+    padding: 0 5px;
+    position: absolute;
+    top: 90px;
+    width: 40px;
+  }
+  .overlap-group13-3 {
+    height: 30px;
+    position: relative;
+    width: 30px;
+  }
+  .vector-6 {
+    height: 30px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 30px;
+  }
+  .vector-7 {
+    height: 1px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 1px;
+  }
+  

@@ -1,0 +1,27 @@
+.rectangle:hover {
+
+    transform: translate(0, -5px);
+    box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+    }
+    .rectangle-18.rectangle-2 {
+      height: 191px;
+      pointer-events: unset;
+      transition: unset;
+    }
+    .rectangle-2 {
+      background-color: var(--gallery);
+      height: 275px;
+      left: 0;
+      mix-blend-mode: normal;
+      pointer-events: auto;
+      position: absolute;
+      top: 0;
+      transition: all 0.2s ease;
+      width: 255px;
+    }
+    .rectangle-2:hover {
+    
+    transform: translate(0, -5px);
+    box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+    }
+    
