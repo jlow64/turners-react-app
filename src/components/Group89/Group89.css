@@ -1,0 +1,36 @@
+.group-.group-89-insurance {
+    margin-left: 35px;
+  }
+  .group-89-insurance {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 195px;
+    position: relative;
+    width: 358px;
+  }
+  .text-7-insurance {
+    letter-spacing: 0;
+    line-height: 19.2px;
+    margin-right: 2.0px;
+    margin-top: 9px;
+    min-height: 33px;
+    min-width: 310px;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: 310px;
+  }
+  .turners-rewards-insurance {
+    height: 32px;
+    letter-spacing: 0.20px;
+    line-height: 32px;
+    margin-right: 2.0px;
+    margin-top: 21px;
+    min-height: 32px;
+    min-width: 356px;
+    mix-blend-mode: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: 356px;
+  }
+  

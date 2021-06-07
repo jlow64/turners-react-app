@@ -1,0 +1,39 @@
+.group-20-insurance {
+    align-items: center;
+    background-color: var(--mist-gray);
+    border-radius: 50px;
+    display: flex;
+    height: 100px;
+    margin-right: 4.0px;
+    min-width: 100px;
+    padding: 0 23.3px;
+  }
+  .image-2-insurance {
+    align-items: flex-start;
+    display: flex;
+    height: 53px;
+    mix-blend-mode: normal;
+    padding: 6.7px;
+    width: 53px;
+  }
+  .overlap-group9-3-insurance {
+    height: 40px;
+    position: relative;
+    width: 40px;
+  }
+  .vector-16-insurance {
+    height: 40px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 40px;
+  }
+  .vector-17-insurance {
+    height: 1px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 1px;
+  }
+  

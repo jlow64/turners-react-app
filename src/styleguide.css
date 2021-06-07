@@ -1,3 +1,7 @@
+@import-normalize; /* bring in normalize.css styles */
+
+/* rest of app styles */
+
 :root {
   --black: #000000;
   --cape-cod: #373f41;
@@ -69,6 +73,98 @@
   color: var(--white);
   font-family: var(--font-family-mulish);
   font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.lato-bold-cape-cod-20px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-semi-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xl2);
+  font-style: normal;
+  font-weight: 600;
+}
+.lato-semi-bold-cape-cod-18px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl2);
+  font-style: normal;
+  font-weight: 600;
+}
+.lato-bold-cape-cod-30px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.mulish-semi-bold-cape-cod-16px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l2);
+  font-style: normal;
+  font-weight: 600;
+}
+.lato-light-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 300;
+}
+.mulish-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-l2);
+  font-style: normal;
+  font-weight: 600;
+}
+.lato-normal-cape-cod-16px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l2);
+  font-style: normal;
+  font-weight: 400;
+}
+.lato-semi-bold-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+.lato-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.lato-bold-cape-cod-16px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l2);
+  font-style: normal;
+  font-weight: 700;
+}
+.lato-black-white-50px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+}
+.mulish-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 600;
 }

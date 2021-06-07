@@ -1,0 +1,25 @@
+.group-92-insurance {
+    align-items: flex-end;
+    background-color: var(--cape-cod);
+    border-radius: 15px;
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    left: 945px;
+    min-width: 30px;
+    padding: 8.4px 7px;
+    position: absolute;
+    top: 598px;
+  }
+  .group-93.group-92-insurance {
+    left: unset;
+    margin-top: 11px;
+    position: relative;
+    top: unset;
+  }
+  .vector-18-insurance {
+    height: 10px;
+    mix-blend-mode: normal;
+    width: 15px;
+  }
+  

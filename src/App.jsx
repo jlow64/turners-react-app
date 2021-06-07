@@ -1,7 +1,10 @@
 import React from 'react';
 import "./App.css"
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import Homepage from './components/Homepage';
+import Insurance from './components/Insurance';
+
+// <Insurance {...finalInsuranceV22Data} />
 
 function App() {
   return (
@@ -9,11 +12,18 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
+            <Redirect to="/home"/>
+          </Route>
+          <Route exact path="/home">
             <Homepage {...finalHomepageV22Data} />
           </Route>
+          <Route exact path="/insurance">
+            <Insurance {...finalInsuranceV22Data} />
+          </Route> 
         </Switch>
-      </Router>  
-      <Homepage {...finalHomepageV22Data} />
+      </Router> 
+      <Homepage {...finalHomepageV22Data} /> 
+      <Insurance {...finalInsuranceV22Data} />
     </div>
   );
 }
@@ -95,36 +105,36 @@ const finalHomepageV22Data = {
   toolbarProps: toolbarData,
 };
 
-
-const linksData = {
+const linksDataInsurance = {
   findACar: "FIND A CAR",
   sellYourCar: "SELL YOUR CAR",
   finance: "FINANCE",
   insurance: "INSURANCE",
 };
 
-const group89Data = {
+const group89DataInsurance = {
   turnersRewards: "TURNERS REWARDS",
   text16: "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.",
 };
 
-const group892Data = {
+const group892DataInsurance = {
   turnersRewards: "MULTI-POLICY DISCOUNTS",
   text16: "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.",
 };
 
-const group893Data = {
+const group893DataInsurance = {
   turnersRewards: "EARN FLY BUY POINTS",
   text16: "Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie.",
 };
 
-const group92Data = {
+const group92DataInsurance = {
   src: "https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-100@2x.svg",
 };
 
-const group922Data = {
+const group922DataInsurance = {
   src: "https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-100@2x.svg",
 };
+
 
 const finalInsuranceV22Data = {
   overlapGroup1: "https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-90@2x.svg",
@@ -207,11 +217,11 @@ const finalInsuranceV22Data = {
   loadMore2: "LOAD MORE",
   contents: "CONTENTS",
   emailAlerts: "EMAIL ALERTS",
-  linksProps: linksData,
-  group89Props: group89Data,
-  group892Props: group892Data,
-  group893Props: group893Data,
-  group92Props: group92Data,
-  group922Props: group922Data,
+  linksProps: linksDataInsurance,
+  group89Props: group89DataInsurance,
+  group892Props: group892DataInsurance,
+  group893Props: group893DataInsurance,
+  group92Props: group92DataInsurance,
+  group922Props: group922DataInsurance,
   toolbarProps: toolbarData,
 };
