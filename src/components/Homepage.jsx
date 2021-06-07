@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/homepageStyle.scss';
+// import { Link } from 'react-router-dom';
+import './homepageStyle.scss';
 
 function Homepage() {
   return (
@@ -32,10 +32,12 @@ function Homepage() {
                     <div className="overlap-group14">
                       <img
                         className="vector-7"
+                        alt="empty icon"
                         src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                       />
                       <img
                         className="vector-10"
+                        alt="empty icon"
                         src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-6@2x.svg"
                       />
                     </div>
@@ -45,6 +47,7 @@ function Homepage() {
                     <div className="overlap-group13-6">
                       <img
                         className="vector-9"
+                        alt="empty icon"
                         src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                       />
                     </div>
@@ -66,10 +69,12 @@ function Homepage() {
                   <div className="overlap-group13-4">
                     <img
                       className="vector-5"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                     />
                     <img
                       className="vector-6"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-8@2x.svg"
                     />
                   </div>
@@ -83,10 +88,12 @@ function Homepage() {
                   <div className="overlap-group13-4">
                     <img
                       className="vector-5"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                     />
                     <img
                       className="vector-6"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-8@2x.svg"
                     />
                   </div>
@@ -100,17 +107,18 @@ function Homepage() {
                   <div className="overlap-group13-4">
                     <img
                       className="vector-5"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                     />
                     <img
                       className="vector-6"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-8@2x.svg"
                     />
                   </div>
                 </div>
               </div>
               <div className="overlap-group">
-                <Link to="/insurance">
                 <Rectangle10 />
                 <div className="insurance valign-text-middle lato-bold-cape-cod-24px">INSURANCE</div>
                 <div className="ellipse-"></div>
@@ -118,15 +126,16 @@ function Homepage() {
                   <div className="overlap-group13-4">
                     <img
                       className="vector-5"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                     />
                     <img
                       className="vector-6"
+                      alt="empty icon"
                       src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-8@2x.svg"
                     />
                   </div>
                 </div>
-                </Link>
               </div>
             </div>
             <div className="flex-row-2">
@@ -184,6 +193,7 @@ function Homepage() {
             <Rectangle10 className="rectangle-18" />
             <img
               className="vector-8"
+              alt="empty icon"
               src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.svg"
             />
             <p className="text-5 lato-light-black-14px">
@@ -228,10 +238,12 @@ function Image(props) {
       <div className="overlap-group13">
         <img
           className="vector"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
         />
         <img
           className="vector-1"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-2@2x.svg"
         />
       </div>
@@ -280,10 +292,12 @@ function Group39(props) {
         <div className="overlap-group13-2">
           <img
             className="vector-3"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
           />
           <img
             className="vector-2"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-20@2x.svg"
           />
         </div>
@@ -301,6 +315,7 @@ function Group84(props) {
       <div className="overlap-group13-3">
         <img
           className="vector-4"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.svg"
         />
       </div>

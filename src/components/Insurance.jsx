@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/insuranceStyle.scss';
+// import { Link } from 'react-router-dom';
+import './insuranceStyle.scss';
 
 function Insurance() {
   return (
@@ -9,6 +9,7 @@ function Insurance() {
         <div className="overlap-group1">
           <img
             className="vector-8"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-90@2x.svg"
           />
         </div>
@@ -30,10 +31,12 @@ function Insurance() {
               <div className="overlap-group10">
                 <img
                   className="vector-9"
+                  alt="empty icon"
                   src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                 />
                 <img
                   className="vector-6"
+                  alt="empty icon"
                   src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-6@2x.svg"
                 />
               </div>
@@ -43,6 +46,7 @@ function Insurance() {
               <div className="overlap-group9-2">
                 <img
                   className="vector-16"
+                  alt="empty icon"
                   src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
                 />
               </div>
@@ -92,30 +96,37 @@ function Insurance() {
           <div className="rectangle-29"></div>
           <img
             className="line-"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-2"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-3"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-5"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-4"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <img
             className="line-6"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-1@1x.svg"
           />
           <div className="third-party valign-text-middle lato-bold-cape-cod-20px">THIRD PARTY</div>
@@ -141,28 +152,34 @@ function Insurance() {
           <div className="vehicle-removal valign-text-middle lato-semi-bold-cape-cod-18px">VEHICLE REMOVAL</div>
           <img
             className="vector-15"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
           <img
             className="vector-7"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
           <img
             className="vector-11"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
           <img
             className="vector-17"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
           <img
             className="vector-13"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
           <div className="load-more valign-text-middle lato-semi-bold-cape-cod-18px">LOAD MORE</div>
           <Group92 src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-100@2x.svg" />
           <img
             className="rectangle-33"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/rectangle-33@2x.svg"
           />
           <div className="popular lato-bold-white-14px">Popular</div>
@@ -174,6 +191,7 @@ function Insurance() {
           </div>
           <img
             className="rectangle-113"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/rectangle-113@2x.svg"
           />
           <div className="economical lato-bold-white-14px">Economical</div>
@@ -190,17 +208,20 @@ function Insurance() {
         <div className="text-28 valign-text-middle lato-bold-cape-cod-30px">FREQUENTLY ASKED QUESTIONS</div>
         <img
           className="line-9"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="overlap-group5">
           <div className="text-29 valign-text-middle lato-bold-cape-cod-20px">WHO IS THE UNDERWRITER?</div>
           <img
             className="vector-14"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
         </div>
         <img
           className="line-10"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="flex-row-1">
@@ -209,11 +230,13 @@ function Insurance() {
           </div>
           <img
             className="vector-12"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
         </div>
         <img
           className="line-1"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="flex-row-1">
@@ -222,22 +245,26 @@ function Insurance() {
           </div>
           <img
             className="vector-5"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
         </div>
         <img
           className="line-1"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="flex-row-2">
           <div className="text-32 valign-text-middle lato-bold-cape-cod-20px">HOW DO I MAKE A CAR INSURANCE CLAIM?</div>
           <img
             className="vector-10"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
         </div>
         <img
           className="line-12"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="flex-row-1">
@@ -246,11 +273,13 @@ function Insurance() {
           </div>
           <img
             className="vector-18"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-74@2x.svg"
           />
         </div>
         <img
           className="line-1"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/line-9@1x.svg"
         />
         <div className="load-more-1 valign-text-middle lato-semi-bold-cape-cod-18px">LOAD MORE</div>
@@ -301,10 +330,12 @@ function Image(props) {
       <div className="overlap-group9">
         <img
           className="vector"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
         />
         <img
           className="vector-1"
+          alt="empty icon"
           src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-2@2x.svg"
         />
       </div>
@@ -335,10 +366,12 @@ function Group39(props) {
         <div className="overlap-group9-1">
           <img
             className="vector-3"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector@2x.png"
           />
           <img
             className="vector-2"
+            alt="empty icon"
             src="https://anima-uploads.s3.amazonaws.com/projects/60bc802e0d81379b238f1ca0/img/vector-20@2x.svg"
           />
         </div>
@@ -353,7 +386,7 @@ function Group92(props) {
 
   return (
     <div className={`group-92 ${className || ""}`}>
-      <img className="vector-4" src={src} />
+      <img alt="empty icon" className="vector-4" src={src} />
     </div>
   );
 }
