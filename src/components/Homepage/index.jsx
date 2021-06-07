@@ -7,6 +7,7 @@ import Group39 from "../Group39";
 import Group84 from "../Group84";
 import Toolbar from "../Toolbar";
 import "./Homepage.css";
+import { Link } from "react-router-dom";
 
 function Homepage(props) {
   const {
@@ -113,10 +114,12 @@ function Homepage(props) {
                 <Image2 vector2={image23Props.vector2} />
               </div>
               <div className="overlap-group">
+                <Link to="/insurance">
                 <div className="rectangle-10 smart-layers-pointers"></div>
                 <div className="insurance valign-text-middle lato-bold-cape-cod-24px">{insurance2}</div>
                 <div className="ellipse-"></div>
                 <Image2 vector2={image24Props.vector2} />
+                </Link>
               </div>
             </div>
             <div className="flex-row-1">

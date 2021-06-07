@@ -5,6 +5,7 @@ import Group89 from "../Group89";
 import Group92 from "../Group92";
 import Toolbar from "../Toolbar";
 import "./Insurance.css";
+import { Link } from "react-router-dom";
 
 function Insurance(props) {
   const {
@@ -107,7 +108,9 @@ function Insurance(props) {
           />
         </div>
         <div className="flex-row-2-insurance">
-          <div className="logo-insurance valign-text-middle">{logo}</div>
+          <Link to="/home">
+            <div className="logo-insurance valign-text-middle">{logo}</div>
+          </Link>
           <Links
             findACar={linksProps.findACar}
             sellYourCar={linksProps.sellYourCar}

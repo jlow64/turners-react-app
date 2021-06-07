@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-d
 import Homepage from './components/Homepage';
 import Insurance from './components/Insurance';
 
-// <Insurance {...finalInsuranceV22Data} />
-
 function App() {
   return (
     <div className="App">
@@ -22,8 +20,6 @@ function App() {
           </Route> 
         </Switch>
       </Router> 
-      <Homepage {...finalHomepageV22Data} /> 
-      <Insurance {...finalInsuranceV22Data} />
     </div>
   );
 }
