@@ -99,7 +99,8 @@ function Insurance(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+  <React.Fragment>
+    <div className="container-center-horizontal">
       <div className="final-insurance-v2-2 screen">
         <div className="overlap-group1-insurance" style={{ backgroundImage: `url(${overlapGroup1})` }}>
           <img
@@ -264,6 +265,7 @@ function Insurance(props) {
         </div>
       </div>
     </div>
+  </React.Fragment>
   );
 }
 

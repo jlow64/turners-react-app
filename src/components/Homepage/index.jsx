@@ -49,7 +49,8 @@ function Homepage(props) {
   } = props;
 
   return (
-    <div class="container-center-horizontal">
+  <React.Fragment>
+    <div className="container-center-horizontal">
       <div className="final-homepage-v2-2 screen">
         <div className="flex-col">
           <div className="flex-col-2">
@@ -192,6 +193,7 @@ function Homepage(props) {
         </div>
       </div>
     </div>
+  </React.Fragment>
   );
 }
 

@@ -3,24 +3,24 @@ import "./App.css"
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Insurance from './components/Insurance';
-
+// <div className="App">
 function App() {
-  return (
-    <div className="App">
-      <Router>
+  return (  
+    <Router>
+      <div className="App">
         <Switch>
           <Route exact path="/">
             <Redirect to="/home"/>
           </Route>
-          <Route exact path="/home">
+          <Route path="/home">
             <Homepage {...finalHomepageV22Data} />
           </Route>
-          <Route exact path="/insurance">
+          <Route path="/insurance">
             <Insurance {...finalInsuranceV22Data} />
           </Route> 
         </Switch>
-      </Router> 
-    </div>
+      </div>
+    </Router> 
   );
 }
 
