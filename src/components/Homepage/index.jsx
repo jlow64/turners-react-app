@@ -60,7 +60,9 @@ function Homepage(props) {
                 <div className="find-a-car-1 valign-text-middle mulish-semi-bold-cape-cod-16px">{findACar}</div>
                 <div className="sell-your-car-1 valign-text-middle mulish-semi-bold-cape-cod-16px">{sellYourCar}</div>
                 <div className="finance valign-text-middle mulish-semi-bold-cape-cod-16px">{finance}</div>
-                <div className="insurance-1 valign-text-middle mulish-semi-bold-cape-cod-16px">{insurance}</div>
+                <Link to="/insurance">
+                  <div className="insurance-1 valign-text-middle mulish-semi-bold-cape-cod-16px">{insurance}</div>
+                </Link>
               </div>
               <div className="overlap-group3">
                 <div className="group-31">

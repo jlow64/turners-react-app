@@ -10,13 +10,13 @@ function App() {
       <Switch>
         <React.Fragment>
           <div className="App">
-            <Route exact path="/">
+            <Route exact path="*">
               <Redirect to="/home"/>
             </Route>
-            <Route path="/home" >
+            <Route exact path="/home" >
               <Homepage {...finalHomepageV22Data} />
             </Route>
-            <Route path="/insurance" >
+            <Route exact path="/insurance" >
               <Insurance {...finalInsuranceV22Data} />
             </Route>
           </div>
