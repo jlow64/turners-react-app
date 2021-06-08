@@ -7,8 +7,8 @@ import Insurance from './components/Insurance';
 function App() {
   return (  
     <Router>
-      <div className="App">
-        <Switch>
+      <Switch>
+        <div className="App">
           <Route exact path="/">
             <Redirect to="/home"/>
           </Route>
@@ -18,8 +18,8 @@ function App() {
           <Route path="/insurance">
             <Insurance {...finalInsuranceV22Data} />
           </Route> 
-        </Switch>
-      </div>
+        </div>
+      </Switch>
     </Router> 
   );
 }
