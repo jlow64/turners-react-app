@@ -332,7 +332,7 @@
   align-items: center;
   background-color: var(--gallery);
   display: flex;
-  height: 250px;
+  height: 300px;
   min-width: 1920px;
   padding: 0 920px;
   position: relative;
