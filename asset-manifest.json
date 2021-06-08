@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/turners-react-app/static/css/main.f2ab8428.chunk.css",
-    "main.js": "/turners-react-app/static/js/main.6dd1a9e2.chunk.js",
-    "main.js.map": "/turners-react-app/static/js/main.6dd1a9e2.chunk.js.map",
+    "main.css": "/turners-react-app/static/css/main.3ca59eff.chunk.css",
+    "main.js": "/turners-react-app/static/js/main.535ad05a.chunk.js",
+    "main.js.map": "/turners-react-app/static/js/main.535ad05a.chunk.js.map",
     "runtime-main.js": "/turners-react-app/static/js/runtime-main.5fa5a2f0.js",
     "runtime-main.js.map": "/turners-react-app/static/js/runtime-main.5fa5a2f0.js.map",
     "static/js/2.77a94c32.chunk.js": "/turners-react-app/static/js/2.77a94c32.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.a1d7b122.chunk.js": "/turners-react-app/static/js/3.a1d7b122.chunk.js",
     "static/js/3.a1d7b122.chunk.js.map": "/turners-react-app/static/js/3.a1d7b122.chunk.js.map",
     "index.html": "/turners-react-app/index.html",
-    "static/css/main.f2ab8428.chunk.css.map": "/turners-react-app/static/css/main.f2ab8428.chunk.css.map",
+    "static/css/main.3ca59eff.chunk.css.map": "/turners-react-app/static/css/main.3ca59eff.chunk.css.map",
     "static/js/2.77a94c32.chunk.js.LICENSE.txt": "/turners-react-app/static/js/2.77a94c32.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5fa5a2f0.js",
     "static/js/2.77a94c32.chunk.js",
-    "static/css/main.f2ab8428.chunk.css",
-    "static/js/main.6dd1a9e2.chunk.js"
+    "static/css/main.3ca59eff.chunk.css",
+    "static/js/main.535ad05a.chunk.js"
   ]
 }
