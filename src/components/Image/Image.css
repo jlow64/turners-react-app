@@ -1,32 +1,32 @@
 .image {
-    align-items: center;
-    display: flex;
-    height: 80px;
-    mix-blend-mode: normal;
-    padding: 0 10px;
-    width: 80px;
-  }
-  .image-1.image {
-    position: relative;
-  }
-  .overlap-group13-2 {
-    height: 60px;
-    position: relative;
-    width: 60px;
-  }
-  .vector-4 {
-    height: 1px;
-    left: 30px;
-    position: absolute;
-    top: 30px;
-    width: 1px;
-  }
-  .vector-5 {
-    height: 60px;
-    left: 0;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 0;
-    width: 60px;
-  }
+  align-items: center;
+  display: flex;
+  height: 80px;
+  mix-blend-mode: normal;
+  padding: 0 10px;
+  width: 80px;
+}
+.image-1.image {
+  position: relative;
+}
+.overlap-group13-2 {
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+.vector-4 {
+  height: 1px;
+  left: 30px;
+  position: absolute;
+  top: 30px;
+  width: 1px;
+}
+.vector-5 {
+  height: 60px;
+  left: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
   

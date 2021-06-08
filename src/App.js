@@ -3,22 +3,24 @@ import "./App.css"
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import Insurance from './components/Insurance';
-// <div className="App">
+
 function App() {
   return (  
     <Router>
       <Switch>
-        <div className="App">
-          <Route exact path="/">
-            <Redirect to="/home"/>
-          </Route>
-          <Route path="/home">
-            <Homepage {...finalHomepageV22Data} />
-          </Route>
-          <Route path="/insurance">
-            <Insurance {...finalInsuranceV22Data} />
-          </Route> 
-        </div>
+        <React.Fragment>
+          <div className="App">
+            <Route exact path="/">
+              <Redirect to="/home"/>
+            </Route>
+            <Route path="/home" >
+              <Homepage {...finalHomepageV22Data} />
+            </Route>
+            <Route path="/insurance" >
+              <Insurance {...finalInsuranceV22Data} />
+            </Route>
+          </div>
+        </React.Fragment>
       </Switch>
     </Router> 
   );
